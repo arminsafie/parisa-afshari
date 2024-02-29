@@ -2,6 +2,14 @@
   border-radius: 1rem;
 }
 
+.fs-small-8 {
+  font-size: 0.8rem;
+}
+
+.bg-ededed {
+  background-color: #ededed;
+}
+
 .p-2-12 {
   padding: 11px 12px 11px 12px;
 }
@@ -14,12 +22,21 @@
   background-image: linear-gradient(270deg, #7B16C6 0%, #C82090 59%);
 }
 
+.pink-color-hoverAni {
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.pink-color-hoverAni:hover {
+  color: #ec406a !important;
+}
+
 @font-face {
   font-family: tanha;
   src: url(../fonts/tanha-font-v0.9/Tanha.woff) format("woff");
 }
 body {
   font-family: tanha;
+  background-color: #f5f5f8;
 }
 
 .nav--item {
@@ -49,6 +66,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
+}
+
+.card-animation-scale-shadow {
+  transition: all 0.4s;
+}
+.card-animation-scale-shadow:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0px 20px rgb(170, 170, 170);
 }
 
 /*# sourceMappingURL=main.css.map */
