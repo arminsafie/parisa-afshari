@@ -1,0 +1,46 @@
+//helper class
+.round-m{
+  border-radius: 1rem;
+}
+.round-m{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: tanha;
+  src: url(../fonts/tanha-font-v0.9/Tanha.woff) format("woff");
+}
+
+
+body {
+  font-family: tanha;
+  
+}
+
+.nav--item{
+  transition: all .4s;
+  cursor:pointer;
+  font-size: 1rem;
+  font-weight: 800;
+  &--active{
+    color: #c82090;
+    &--hover:hover{
+     color: #c82090 !important; 
+     transform: scale(1.1);
+    }
+  }
+  &:hover{
+    transform: scale(1.1);
+    color: #ec406a;
+  }
+}
