@@ -12,6 +12,7 @@
   </head>
   <body>
     <header class="container-fluid">
+      <!-- menu part -->
       <nav class="row py-4 bg-white">
         <div class="col-md-6 d-flex justify-content-end">
           <ul class="d-flex align-items-center m-0 gap-4 list-unstyled">
@@ -24,27 +25,49 @@
             <li class="nav--item">درباره ما / تماس باما</li>
           </ul>
         </div>
-        <div class="col-md-5">
-          <form
-            action=""
-            class="d-flex align-items-center ms-4 w-100 position-relative"
-          >
-            <span
-              class="ps-2 text-secondary fs-4 material-symbols-outlined position-absolute"
-              id="search-icon-top"
+        <div class="col-md-5 d-flex justify-content-around align-items-center">
+          <div class="d-flex align-items-center gap-4 justify-content-between">
+            <form
+              action=""
+              class="d-flex align-items-center ms-4 w-75 position-relative"
             >
-              search
-            </span>
-            <input
-              type="text"
-              name=""
-              class="form-control rounded-pill px-4 shadow py-1 border border-1"
-              id="search-input"
-              placeholder=""
-            />
-          </form>
+              <span
+                class="ps-2 text-secondary fs-4 material-symbols-outlined position-absolute"
+                id="search-icon-top"
+              >
+                search
+              </span>
+              <input
+                type="text"
+                name=""
+                class="form-control rounded-pill w-100 px-5 shadow py-1 border border-1"
+                id="search-input"
+                placeholder="جستوجو"
+              />
+            </form>
+            <div class="d-flex gap-5 align-items-center justify-content-center">
+              <div
+                class="bg-white shadow p-2-11 rounded-circle d-flex justify-content-center align-content-center"
+              >
+                <span class="material-symbols-outlined"> shopping_bag </span>
+              </div>
+              <div
+                class="rounded-circle shadow p-2-11 d-flex bg-gradient-p-lp justify-content-center align-content-center"
+              >
+                <span class="material-symbols-outlined text-white">
+                  person
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       </nav>
+      <!-- box 1 -->
+      <div class="row bg-img-top-box1 vh-85 d-flex align-items-center">
+        <div class="col-md-6">
+          <img src="./assets/img/box1-1.png" class="w-100" alt="" />
+        </div>
+      </div>
     </header>
     <main class="container-fluid"></main>
     <footer class="container-fluid"></footer>

@@ -2,6 +2,18 @@
   border-radius: 1rem;
 }
 
+.p-2-12 {
+  padding: 11px 12px 11px 12px;
+}
+
+.p-2-11 {
+  padding: 11px;
+}
+
+.bg-gradient-p-lp {
+  background-image: linear-gradient(270deg, #7B16C6 0%, #C82090 59%);
+}
+
 @font-face {
   font-family: tanha;
   src: url(../fonts/tanha-font-v0.9/Tanha.woff) format("woff");
@@ -26,6 +38,17 @@ body {
 .nav--item:hover {
   transform: scale(1.1);
   color: #ec406a;
+}
+
+.vh-85 {
+  height: 85vh;
+}
+
+.bg-img-top-box1 {
+  background-image: url("../img/slide-min.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=main.css.map */
