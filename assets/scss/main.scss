@@ -8,6 +8,16 @@
   resize: none;
 }
 
+/******** Firefox ********/
+input[type="range"]::-moz-range-track {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  background: #b4b3b3;
+  height: 0.5rem;
+}
+
 //helper class
 
 .round-m {
@@ -43,6 +53,9 @@
 }
 .bg-e31784 {
   background-color: #e31784;
+}
+.bg-ec406a{
+  background-color: #ec406a;
 }
 .text-7b15c5 {
   color: #7b15c5;
