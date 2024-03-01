@@ -56,7 +56,25 @@
   }
 }
 
-
+.progres-box{
+  
+  background-color: #eeeeee;
+  &--amount{
+    background-color: #ec406a;
+    &-w-70{
+      width: 70%;
+    }
+    &-w-93{
+      width: 93%;
+    }
+    &-w-82{
+      width: 82%;
+    }
+    &-w-46{
+      width: 46%;
+    }
+  }
+}
 
 
 

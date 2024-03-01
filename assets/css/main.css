@@ -65,6 +65,25 @@
   color: #ec406a !important;
 }
 
+.progres-box {
+  background-color: #eeeeee;
+}
+.progres-box--amount {
+  background-color: #ec406a;
+}
+.progres-box--amount-w-70 {
+  width: 70%;
+}
+.progres-box--amount-w-93 {
+  width: 93%;
+}
+.progres-box--amount-w-82 {
+  width: 82%;
+}
+.progres-box--amount-w-46 {
+  width: 46%;
+}
+
 @font-face {
   font-family: tanha;
   src: url(../fonts/tanha-font-v0.9/Tanha.woff) format("woff");
