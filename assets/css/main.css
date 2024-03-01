@@ -1,17 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .round-m {
   border-radius: 1rem;
 }
 
 .round-l {
-  border-radius: 1.5rem;
+  border-radius: 2.5rem;
 }
 
 .fs-small-8 {
   font-size: 0.8rem;
 }
 
+.cursor-p {
+  cursor: pointer;
+}
+
 .bg-ededed {
   background-color: #ededed;
+}
+
+.bg-perpur-6a1cc0 {
+  background-color: #6a1cc0;
+}
+
+.bg-474747 {
+  background-color: #474747;
+}
+
+.text-7b15c5 {
+  color: #7b15c5;
+}
+
+.w-24-24 {
+  width: 24px;
+  height: 24px;
+}
+
+.fw-very-bold {
+  font-weight: 900;
 }
 
 .p-2-12 {
@@ -78,6 +109,29 @@ body {
 .card-animation-scale-shadow:hover {
   transform: translateY(-10px);
   box-shadow: 0 0px 20px rgb(170, 170, 170);
+}
+
+.btn-purple {
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.btn-purple:hover {
+  transform: scale(1.1);
+}
+.btn-purple:active {
+  transform: scale(0.98);
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/IMG_4926.png"), linear-gradient(270deg, #7B16C6 0%, #C82090 61%);
+  /* Set a specific height */
+  min-height: auto;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=main.css.map */
