@@ -20,13 +20,13 @@
       <nav class="row py-4 bg-white">
         <div class="col-md-6 d-flex justify-content-end">
           <ul class="d-flex align-items-center m-0 gap-4 list-unstyled">
-            <li class="nav--item nav--item--active nav--item--active--hover">
-              صفحه ی نخست
-            </li>
+            <li class="nav--item">صفحه ی نخست</li>
             <li class="nav--item">دوره ها</li>
             <li class="nav--item">مقالات</li>
             <li class="nav--item">سبد خرید</li>
-            <li class="nav--item">درباره ما / تماس باما</li>
+            <li class="nav--item nav--item--active nav--item--active--hover">
+              درباره ما / تماس باما
+            </li>
           </ul>
         </div>
         <div class="col-md-5 d-flex justify-content-around align-items-center">
@@ -71,7 +71,9 @@
       <div class="row d-flex justify-content-center mt-5">
         <div class="col-md-11">
           <div class="row">
-            <div class="col-md-7 d-flex flex-column gap-2">
+            <div
+              class="col-md-7 d-flex flex-column gap-2 justify-content-center"
+            >
               <h1>درباره من بیشتر بدانید!</h1>
               <p>
                 همه چیز از ۲ سال پیش شروع شد که کار سیاه قلم انجام می دادم و یه
@@ -142,6 +144,65 @@
                   </span>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="row my-5">
+            <div class="col-md-6 bg-img-about-us p-4 d-flex flex-column gap-5">
+              <h2 class="heding-black--big">با ما در تماس باشید!</h2>
+              <div class="d-flex flex-column gap-2 fs-5">
+                <span>منتظر انتقادات و پیشنهاداتتوون هستیم…</span>
+                <span>اطلاعات خود را از طریق فرم زیر برایمان ارسال کنید</span>
+                <span>پل های ارتباطی با ما :</span>
+              </div>
+              <div class="row">
+                <div class="col-md-12 d-flex justify-content-end">
+                  <div class="d-flex gap-3">
+                    <div class="round-s bg-2ca5e0 p-2">
+                      <img
+                        src="../assets/img/icons8-telegram-24.png"
+                        class="w-24-24"
+                        alt=""
+                      />
+                    </div>
+                    <div class="round-s bg-25d366 p-2">
+                      <img
+                        src="../assets/img/icons8-whatsapp-50(1).png"
+                        class="w-24-24"
+                        alt=""
+                      />
+                    </div>
+                    <div class="round-s bg-e31784 p-2">
+                      <img
+                        src="../assets/img/icons8-instagram-50(1).png"
+                        class="w-24-24"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 d-flex flex-column gap-2">
+                  <span>تلفن های تماس: ۰۹۹۱۷۴۹۴۹۳۴ </span>
+                  <span>آدرس ایمیل : parisa.afshari.1999@gmal.com</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <form
+                action=""
+                class="d-flex flex-column gap-3 shadow p-3 round-m"
+              >
+                <label for="name">نام و نام خانوادگی</label>
+                <input
+                  id="name"
+                  type="text"
+                  placeholder="نام خود را وارد کنید"
+                />
+                <label for="phone">شماره تلفن</label>
+                <input id="phone" type="text" placeholder="شماره تلفن" />
+                <span class="fs-small-8">0 از 11 حداکثر کاراکتر</span>
+              </form>
             </div>
           </div>
         </div>

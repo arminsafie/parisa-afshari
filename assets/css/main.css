@@ -12,6 +12,10 @@
   border-radius: 2.5rem;
 }
 
+.round-s {
+  border-radius: 10px;
+}
+
 .fs-small-8 {
   font-size: 0.8rem;
 }
@@ -30,6 +34,18 @@
 
 .bg-474747 {
   background-color: #474747;
+}
+
+.bg-25d366 {
+  background-color: #25d366;
+}
+
+.bg-2ca5e0 {
+  background-color: #2ca5e0;
+}
+
+.bg-e31784 {
+  background-color: #e31784;
 }
 
 .text-7b15c5 {
@@ -111,6 +127,14 @@ body {
   color: #ec406a;
 }
 
+.heding-black {
+  color: #000;
+  font-weight: 900;
+}
+.heding-black--big {
+  font-size: 3rem;
+}
+
 .vh-85 {
   height: 85vh;
 }
@@ -139,6 +163,12 @@ body {
 }
 .btn-purple:active {
   transform: scale(0.98);
+}
+
+.bg-img-about-us {
+  background-image: url("../img/slide-bg-1n.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .parallax {
