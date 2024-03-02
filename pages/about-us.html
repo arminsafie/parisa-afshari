@@ -15,18 +15,18 @@
     <title>پریسا افشاری</title>
   </head>
   <body>
-    <header class="container-fluid">
+    <header class="container-fluid sticky-top">
       <!-- menu part -->
-      <nav class="row py-4 bg-white">
+      <nav class="row py-4 bg-white phone-none user-select-none">
         <div class="col-md-6 d-flex justify-content-end">
           <ul class="d-flex align-items-center m-0 gap-4 list-unstyled">
-            <li class="nav--item">صفحه ی نخست</li>
+            <li class="nav--item nav--item--active nav--item--active--hover">
+              صفحه ی نخست
+            </li>
             <li class="nav--item">دوره ها</li>
             <li class="nav--item">مقالات</li>
             <li class="nav--item">سبد خرید</li>
-            <li class="nav--item nav--item--active nav--item--active--hover">
-              درباره ما / تماس باما
-            </li>
+            <li class="nav--item">درباره ما / تماس باما</li>
           </ul>
         </div>
         <div class="col-md-5 d-flex justify-content-around align-items-center">
@@ -51,12 +51,12 @@
             </form>
             <div class="d-flex gap-5 align-items-center justify-content-center">
               <div
-                class="bg-white shadow p-2-11 rounded-circle d-flex justify-content-center align-content-center"
+                class="bg-white shadow p-2-11 rounded-circle cursor-p d-flex justify-content-center align-content-center"
               >
                 <span class="material-symbols-outlined"> shopping_bag </span>
               </div>
               <div
-                class="rounded-circle shadow p-2-11 d-flex bg-gradient-p-lp justify-content-center align-content-center"
+                class="rounded-circle shadow p-2-11 cursor-p d-flex bg-gradient-p-lp justify-content-center align-content-center"
               >
                 <span class="material-symbols-outlined text-white">
                   person
@@ -66,6 +66,45 @@
           </div>
         </div>
       </nav>
+      <div class="row bg-white py-2 phone-show">
+        <div
+          class="col-md-12 d-flex align-items-center justify-content-between"
+        >
+          <label for="menu-toggle" class="menu-icon user-select-none"
+            >&#9776;</label
+          >
+          <input type="checkbox" id="menu-toggle" />
+          <form action="" class="d-flex align-items-center position-relative">
+            <span
+              class="ps-2 text-secondary fs-4 material-symbols-outlined position-absolute"
+              id="search-icon-top"
+            >
+              search
+            </span>
+            <input
+              type="text"
+              name=""
+              class="form-control rounded-pill w-100 px-5 shadow py-1 border border-1"
+              id="search-input"
+              placeholder="جستوجو"
+            />
+          </form>
+          <div
+            class="rounded-circle shadow p-2-11 d-flex cursor-p user-select-none bg-gradient-p-lp justify-content-center align-content-center"
+          >
+            <span class="material-symbols-outlined text-white"> person </span>
+          </div>
+          <nav class="menu">
+            <ul>
+              <li><a href="#" class="text-center">صفحه ی نخست</a></li>
+              <li><a href="#" class="text-center">دوره ها</a></li>
+              <li><a href="#" class="text-center">مقالات</a></li>
+              <li><a href="#" class="text-center">سبد خرید</a></li>
+              <li><a href="#" class="text-center">درباره ما / تماس باما</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
     <main class="container mt-5">
       <div class="row d-flex justify-content-center mt-5">

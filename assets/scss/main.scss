@@ -209,6 +209,10 @@ body {
     box-shadow: 0 0px 20px rgb(170, 170, 170);
   }
 }
+
+.phone-show {
+  display: none;
+}
 .btn-purple {
   transition: all 0.4s;
   cursor: pointer;
@@ -344,4 +348,70 @@ body {
 .shadow__login {
   box-shadow: 0 2.5rem 3rem rgba(0, 0, 0, 0.4);
   border-radius: 1rem;
+}
+
+.menu-icon {
+  cursor: pointer;
+  font-size: 40px;
+  text-align: center;
+}
+
+.menu {
+  background-color: #333;
+  color: #fff;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  transition: left 0.4s ;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #555;
+  overflow: hidden;
+}
+
+.menu li:last-child {
+  border-bottom: none;
+}
+
+.menu a {
+  color: #fff;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.menu a:hover {
+  background-color: #555;
+  transform: scale(1.1);
+}
+
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked ~ .menu {
+  left: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .phone-none {
+    display: none;
+  }
+
+
+  .phone-show {
+    display: block;
+  }
+
+ 
 }
