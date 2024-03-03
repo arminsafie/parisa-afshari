@@ -481,6 +481,21 @@ body {
     object-fit: cover;
   }
 }
+@media only screen and (max-width: 1000px) {
+  .card__articles--hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 60%;
+    border-radius: 15px;
+    transition: all 0.3s;
+  }
+  .card__articles--hover:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0.8rem 3rem rgba(0, 0, 0, 0.4);
+  }
+}
 .articles__text {
   transition: all 0.4s;
 }
