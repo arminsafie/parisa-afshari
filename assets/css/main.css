@@ -447,6 +447,12 @@ body {
   .phone-show {
     display: block;
   }
+  .bg-img-top-box1 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.749), rgba(255, 255, 255, 0.655)), url("../img/slide-min.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
