@@ -481,5 +481,11 @@ body {
     object-fit: cover;
   }
 }
+.articles__text {
+  transition: all 0.4s;
+}
+.articles__text:hover {
+  color: #c82090;
+}
 
 /*# sourceMappingURL=main.css.map */
