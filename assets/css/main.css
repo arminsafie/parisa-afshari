@@ -327,4 +327,9 @@ body {
   transition: all 0.3s;
 }
 
+.border-right-pink {
+  padding-right: 10px;
+  border-right: 2px solid #ec406a;
+}
+
 /*# sourceMappingURL=main.css.map */
