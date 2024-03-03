@@ -19,13 +19,36 @@
       <nav class="row py-4 bg-white phone-none user-select-none">
         <div class="col-md-6 d-flex justify-content-end">
           <ul class="d-flex align-items-center m-0 gap-4 list-unstyled">
-            <li class="nav--item nav--item--active nav--item--active--hover">
-              صفحه ی نخست
+            <li class="nav--item">
+              <a
+                href="index.html"
+                class="text-decoration-none clr-b nav--item nav--item--active nav--item--active--hover"
+                >صفحه ی نخست</a
+              >
             </li>
-            <li class="nav--item">دوره ها</li>
-            <li class="nav--item">مقالات</li>
-            <li class="nav--item">سبد خرید</li>
-            <li class="nav--item">درباره ما / تماس باما</li>
+            <li class="nav--item">
+              <a
+                href="./pages/products.html"
+                class="nav--item clr-b text-decoration-none"
+                >دوره ها</a
+              >
+            </li>
+            <li class="nav--item">
+              <a href="" class="nav--item clr-b text-decoration-none">مقالات</a>
+            </li>
+            <li class="nav--item">
+              <a href="" class="nav--item clr-b text-decoration-none"
+                >سبد خرید</a
+              >
+            </li>
+            <li class="nav--item">
+              <a
+                href="./pages/about-us.html"
+                class="nav--item clr-b text-decoration-none"
+              >
+                درباره ما / تماس باما
+              </a>
+            </li>
           </ul>
         </div>
         <div class="col-md-5 d-flex justify-content-around align-items-center">
@@ -54,17 +77,20 @@
               >
                 <span class="material-symbols-outlined"> shopping_bag </span>
               </div>
-              <div
-                class="rounded-circle shadow p-2-11 cursor-p d-flex bg-gradient-p-lp justify-content-center align-content-center"
-              >
-                <span class="material-symbols-outlined text-white">
-                  person
-                </span>
-              </div>
+              <a href="./pages/login.html" class="text-decoration-none">
+                <div
+                  class="rounded-circle shadow p-2-11 cursor-p d-flex bg-gradient-p-lp justify-content-center align-content-center"
+                >
+                  <span class="material-symbols-outlined text-white">
+                    person
+                  </span>
+                </div>
+              </a>
             </div>
           </div>
         </div>
       </nav>
+      <!-- phone nav -->
       <div class="row bg-white py-2 phone-show">
         <div
           class="col-md-12 d-flex align-items-center justify-content-between"
