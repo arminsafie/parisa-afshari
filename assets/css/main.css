@@ -332,4 +332,26 @@ body {
   border-right: 2px solid #ec406a;
 }
 
+.item--product-h:hover .circle {
+  background-color: #e31784;
+  border: 2px solid #e31784;
+}
+
+.item--product-text {
+  transition: all 0.4s;
+}
+
+.item--product-h:hover .item--product-text {
+  transform: translateX(-10px);
+}
+
+.item--product-h {
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.item--product-h:hover {
+  background-color: #f8f9fa;
+}
+
 /*# sourceMappingURL=main.css.map */
