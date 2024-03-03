@@ -38,6 +38,10 @@ input[type=range]::-moz-range-track {
   font-size: 0.9rem;
 }
 
+.fs-small-9 {
+  font-size: 0.9rem;
+}
+
 .cursor-p {
   cursor: pointer;
 }
@@ -403,6 +407,7 @@ body {
   left: -300px;
   width: 300px;
   transition: left 0.4s;
+  transition: left 0.4s;
 }
 
 .menu ul {
@@ -425,6 +430,7 @@ body {
   padding: 20px;
   text-decoration: none;
   transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .menu a:hover {
@@ -441,6 +447,32 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
+  .btn__articles {
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s;
+    position: relative;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    background-color: #ececec;
+  }
+  .card__articles--hover {
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.3s;
+  }
+  .card__articles--hover:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0.8rem 3rem rgba(0, 0, 0, 0.4);
+  }
+  .card__articles--hover:hover .btn__articles {
+    background-color: #ec597d;
+    color: #fff !important;
+    transition: all 0.3s;
+  }
+}
+@media only screen and (max-width: 1000px) and (max-width: 1000px) {
   .phone-none {
     display: none;
   }
@@ -449,10 +481,32 @@ body {
   }
   .bg-img-top-box1 {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.749), rgba(255, 255, 255, 0.655)), url("../img/slide-min.png");
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.749), rgba(255, 255, 255, 0.655)), url("../img/slide-min.png");
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
   }
+}
+@media only screen and (max-width: 1000px) {
+  .card__articles--hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 60%;
+    border-radius: 15px;
+    transition: all 0.3s;
+  }
+  .card__articles--hover:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0.8rem 3rem rgba(0, 0, 0, 0.4);
+  }
+}
+.articles__text {
+  transition: all 0.4s;
+}
+.articles__text:hover {
+  color: #c82090;
 }
 
 /*# sourceMappingURL=main.css.map */

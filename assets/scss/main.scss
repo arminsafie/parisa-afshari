@@ -33,8 +33,11 @@ input[type="range"]::-moz-range-track {
 .fs-small-8 {
   font-size: 0.8rem;
 }
-.fs-small-9{
-  font-size: .9rem;
+.fs-small-9 {
+  font-size: 0.9rem;
+}
+.fs-small-9 {
+  font-size: 0.9rem;
 }
 .cursor-p {
   cursor: pointer;
@@ -57,28 +60,28 @@ input[type="range"]::-moz-range-track {
 .bg-e31784 {
   background-color: #e31784;
 }
-.bg-ec406a{
+.bg-ec406a {
   background-color: #ec406a;
 }
 .text-7b15c5 {
   color: #7b15c5;
 }
-.pb-small-1{
+.pb-small-1 {
   padding-bottom: 11px;
 }
-.border-right-pink{
+.border-right-pink {
   padding-right: 10px;
   border-right: 2px solid #ec406a;
 }
-.line{
+.line {
   // border-bottom: 2px solid #ddd;
   // width: 10px;
   // transform: rotate(268deg);
   border-left: 2px solid #ddd;
   height: 10px;
 }
-.circle{
-  transition: all .4s;
+.circle {
+  transition: all 0.4s;
   padding: 4px;
   border: 2px solid #ddd;
   border-radius: 50%;
@@ -135,8 +138,8 @@ body {
   font-family: tanha;
   background-color: #f5f5f8;
 }
-.clr-b{
-color: #000;
+.clr-b {
+  color: #000;
 }
 .nav--item {
   transition: all 0.3s;
@@ -167,33 +170,32 @@ color: #000;
 .vh-85 {
   height: 85vh;
 }
-.item--product-h:hover .circle{
+.item--product-h:hover .circle {
   background-color: #e31784;
   border: 2px solid #e31784;
 }
-.item--product-text{
-  transition: all .4s;
+.item--product-text {
+  transition: all 0.4s;
 }
-.item--product-h:hover .item--product-text{
+.item--product-h:hover .item--product-text {
   transform: translateX(-10px);
 }
-.item--product-h{
+.item--product-h {
   overflow: hidden;
-  transition: all .4s;
-  &:hover{
+  transition: all 0.4s;
+  &:hover {
     background-color: #f8f9fa;
   }
 }
-.search-bar-icon-position{
+.search-bar-icon-position {
   left: 5%;
   top: 25%;
 }
 
 .outline-none:focus {
- 
   outline: none;
 }
-.sticky-top-custom{
+.sticky-top-custom {
   position: sticky;
   top: 0;
 }
@@ -368,7 +370,10 @@ color: #000;
   top: 0;
   left: -300px;
   width: 300px;
-  transition: left 0.4s ;
+
+  transition: left 0.4s;
+
+  transition: left 0.4s;
 }
 
 .menu ul {
@@ -390,8 +395,9 @@ color: #000;
   display: block;
   padding: 20px;
   text-decoration: none;
-  transition: all .3s;
+  transition: all 0.3s;
 
+  transition: all 0.3s;
 }
 
 .menu a:hover {
@@ -408,21 +414,80 @@ color: #000;
 }
 
 @media only screen and (max-width: 1000px) {
-
-  .phone-none {
-    display: none;
+  .btn__articles {
+    text-decoration: none;
+    // padding: 0.8rem 1rem;
+    display: inline-block;
+    transition: all 0.2s;
+    position: relative;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    background-color: #ececec;
   }
 
-
-  .phone-show {
-    display: block;
+  .card__articles--hover {
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.3s;
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0.8rem 3rem rgba(0, 0, 0, 0.4);
+    }
   }
-  .bg-img-top-box1 {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.749), rgba(255, 255, 255, 0.655)),url("../img/slide-min.png") ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    object-fit: cover;
+
+  .card__articles--hover:hover .btn__articles {
+    background-color: #ec597d;
+    color: #fff !important;
+    transition: all 0.3s;
   }
 
- 
+  @media only screen and (max-width: 1000px) {
+    .phone-none {
+      display: none;
+    }
+
+    .phone-show {
+      display: block;
+    }
+    .bg-img-top-box1 {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(255, 255, 255, 0.749),
+          rgba(255, 255, 255, 0.655)
+        ),
+        url("../img/slide-min.png");
+      background-image: linear-gradient(
+          to bottom,
+          rgba(255, 255, 255, 0.749),
+          rgba(255, 255, 255, 0.655)
+        ),
+        url("../img/slide-min.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      object-fit: cover;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .card__articles--hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 60%;
+    border-radius: 15px;
+    transition: all 0.3s;
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0.8rem 3rem rgba(0, 0, 0, 0.4);
+    }
+  }
+}
+.articles__text {
+  transition: all 0.4s;
+  &:hover {
+    color: #c82090;
+  }
 }
