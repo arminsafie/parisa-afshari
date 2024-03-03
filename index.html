@@ -15,7 +15,7 @@
   </head>
   <body>
     <header class="container-fluid sticky-top">
-      <!-- menu part -->
+      <!-- computer nav !-->
       <nav class="row py-4 bg-white phone-none user-select-none">
         <div class="col-md-6 d-flex justify-content-end">
           <ul class="d-flex align-items-center m-0 gap-4 list-unstyled">
@@ -93,7 +93,7 @@
       <!-- phone nav -->
       <div class="row bg-white py-2 phone-show">
         <div
-          class="col-md-12 d-flex align-items-center justify-content-between"
+          class="col-md-12 d-flex align-items-center justify-content-between gap-2"
         >
           <label for="menu-toggle" class="menu-icon user-select-none"
             >&#9776;</label
@@ -114,18 +114,28 @@
               placeholder="جستوجو"
             />
           </form>
-          <div
-            class="rounded-circle shadow p-2-11 d-flex cursor-p user-select-none bg-gradient-p-lp justify-content-center align-content-center"
-          >
-            <span class="material-symbols-outlined text-white"> person </span>
-          </div>
+          <a href="./pages/login.html" class="text-decoration-none">
+            <div
+              class="rounded-circle shadow p-2-11 d-flex cursor-p user-select-none bg-gradient-p-lp justify-content-center align-content-center"
+            >
+              <span class="material-symbols-outlined text-white"> person </span>
+            </div>
+          </a>
           <nav class="menu">
             <ul>
-              <li><a href="#" class="text-center">صفحه ی نخست</a></li>
-              <li><a href="#" class="text-center">دوره ها</a></li>
-              <li><a href="#" class="text-center">مقالات</a></li>
-              <li><a href="#" class="text-center">سبد خرید</a></li>
-              <li><a href="#" class="text-center">درباره ما / تماس باما</a></li>
+              <li>
+                <a href="./index.html" class="text-center">صفحه ی نخست</a>
+              </li>
+              <li>
+                <a href="./pages/products.html" class="text-center">دوره ها</a>
+              </li>
+              <li><a href="./pages/" class="text-center">مقالات</a></li>
+              <li><a href="./pages/" class="text-center">سبد خرید</a></li>
+              <li>
+                <a href="./pages/about-us.html" class="text-center"
+                  >درباره ما / تماس باما</a
+                >
+              </li>
             </ul>
           </nav>
         </div>
