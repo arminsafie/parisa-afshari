@@ -647,4 +647,8 @@ body {
   transform: translateY(-8px);
 }
 
+.articles__text {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=main.css.map */
