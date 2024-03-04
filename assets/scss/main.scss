@@ -614,3 +614,10 @@ body {
 	margin-right: 5px;
 }
 
+.card__articles--hover{
+  transition:  all .4s;
+  cursor: pointer;
+  &:hover{
+    transform: translateY(-8px);
+  }
+}
