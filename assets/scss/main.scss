@@ -29,6 +29,9 @@ input[type="range"]::-moz-range-track {
 .round-s {
   border-radius: 10px;
 }
+.round-vs{
+  border-radius: 5px;
+}
 
 .fs-small-8 {
   font-size: 0.8rem;
@@ -62,6 +65,9 @@ input[type="range"]::-moz-range-track {
 }
 .bg-ec406a {
   background-color: #ec406a;
+}
+.bg-f8f9fa{
+  background-color: #f8f9fa;
 }
 .text-7b15c5 {
   color: #7b15c5;
@@ -110,6 +116,16 @@ input[type="range"]::-moz-range-track {
   }
 }
 
+.pink-btn{
+  
+  background-color:#ec406a ;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: .7rem;
+  overflow: hidden;
+  
+}
 .progres-box {
   background-color: #eeeeee;
   &--amount {
@@ -389,7 +405,9 @@ body {
 .menu li:last-child {
   border-bottom: none;
 }
-
+.bg-7b868a{
+  background-color: #7b868a;
+}
 .menu a {
   color: #fff;
   display: block;
@@ -527,3 +545,65 @@ body {
   padding-bottom: 10px;
   border-bottom: 2px solid #ec406a;
 }
+
+.sell_course {
+	color: #777;
+	font-size: 16px;
+	display: flex;
+	border: 1px dashed #ddd;
+	background-color: #f9f9f9;
+	padding: 0 15px;
+	
+	border-radius: 10px;
+	line-height: 52px;
+	position: relative;
+}
+ .sell_course::before {
+	content: '';
+	width: 16px;
+	height: 16px;
+	border-left: 2px dashed #ddd;
+	border-radius: 50%;
+	background-color: #fff;
+	position: absolute;
+	top: calc(50% - 8px);
+	right: -9px;
+}
+.sell_course::after{
+  content: '';
+	width: 16px;
+	height: 16px;
+	border-left: 2px dashed #ddd;
+	border-radius: 50%;
+	background-color: #fff;
+	position: absolute;
+	top: calc(50% - 8px);
+	right: -9px;
+}
+ .sell_course strong {
+	padding-left: 20px;
+	border-left: 2px dashed #ddd;
+	font-weight: 500;
+	width: 100%;
+	max-width: 84px;
+	text-align: center;
+}
+.product-info-box p.price {
+	font-size: 25px;
+	margin-bottom: 0;
+	font-size: 17px;
+	width: 100%;
+	text-align: left;
+}
+.price > .amount {
+	font-size: 26px;
+}
+.price span.woocommerce-Price-currencySymbol {
+	float: left;
+	color: grey;
+	font-size: 10px;
+	font-weight: 400;
+	text-align: center;
+	margin-right: 5px;
+}
+
