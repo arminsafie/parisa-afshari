@@ -491,3 +491,39 @@ body {
     color: #c82090;
   }
 }
+
+.item-gray-hover-dark{
+  transition: all .3s;
+  border-radius: 3px;
+  
+  
+  
+  color: #8a9598 !important;
+  background-color: #eaecef;
+  text-decoration: none !important;
+  &:hover{
+    color: #eaecef !important;
+    background-color:#7b868a ;
+  }
+  &--active{
+    color: #eaecef !important;
+    background-color:#7b868a ;
+  }
+}
+.card-animation-scale-shadow-small{
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.4s;
+  &:hover {
+    
+
+    box-shadow: 0 0px 4px rgb(170, 170, 170);
+  }
+}
+.pb-c-10px{
+  padding-bottom: 10px;
+}
+.border-bottom-pink{
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ec406a;
+}
