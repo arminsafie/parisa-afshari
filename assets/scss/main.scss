@@ -99,6 +99,10 @@ input[type="range"]::-moz-range-track {
   width: 24px;
   height: 24px;
 }
+.border-dottet{
+  border: 1px dotted #c0c3c4;
+  border-radius: 10px;
+}
 .fw-very-bold {
   font-weight: 900;
 }
