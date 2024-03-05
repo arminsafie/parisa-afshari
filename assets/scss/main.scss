@@ -457,8 +457,6 @@ body {
 #menu-toggle:checked ~ .menu {
   left: 0;
 }
-
-@media only screen and (max-width: 1000px) {
   .btn__articles {
     text-decoration: none;
     // padding: 0.8rem 1rem;
@@ -476,16 +474,17 @@ body {
     border-radius: 15px;
     transition: all 0.3s;
     &:hover {
+      
       transform: translateY(-10px);
       box-shadow: 0 0.8rem 3rem rgba(0, 0, 0, 0.4);
     }
+    &:hover .btn__articles{
+      background-color: #ec406a;
+      color: #fff !important;
+    }
   }
 
-  .card__articles--hover:hover .btn__articles {
-    background-color: #ec597d;
-    color: #fff !important;
-    transition: all 0.3s;
-  }
+
 
   @media only screen and (max-width: 1000px) {
 
@@ -518,7 +517,7 @@ body {
       object-fit: cover;
     }
   }
-}
+
 
 @media only screen and (max-width: 1000px) {
   .card__articles--hover {
@@ -657,9 +656,9 @@ body {
 }
 @media only screen and (max-width: 600px) {
  
-.sticky-top-custom {
-  position: static;
+  .sticky-top-custom {
+    position: static;
 
-}
+  }
 }
 

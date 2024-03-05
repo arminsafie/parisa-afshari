@@ -500,33 +500,32 @@ body {
   left: 0;
 }
 
-@media only screen and (max-width: 1000px) {
-  .btn__articles {
-    text-decoration: none;
-    display: inline-block;
-    transition: all 0.2s;
-    position: relative;
-    font-size: 1.2rem;
-    border: none;
-    cursor: pointer;
-    background-color: #ececec;
-  }
-  .card__articles--hover {
-    overflow: hidden;
-    border-radius: 15px;
-    transition: all 0.3s;
-  }
-  .card__articles--hover:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 0.8rem 3rem rgba(0, 0, 0, 0.4);
-  }
-  .card__articles--hover:hover .btn__articles {
-    background-color: #ec597d;
-    color: #fff !important;
-    transition: all 0.3s;
-  }
+.btn__articles {
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s;
+  position: relative;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  background-color: #ececec;
 }
-@media only screen and (max-width: 1000px) and (max-width: 1000px) {
+
+.card__articles--hover {
+  overflow: hidden;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+.card__articles--hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0.8rem 3rem rgba(0, 0, 0, 0.4);
+}
+.card__articles--hover:hover .btn__articles {
+  background-color: #ec406a;
+  color: #fff !important;
+}
+
+@media only screen and (max-width: 1000px) {
   .phone-none {
     display: none;
   }
