@@ -158,6 +158,7 @@ input[type=range]::-moz-range-track {
 }
 
 .pink-btn {
+  cursor: pointer;
   background-color: #ec406a;
   color: #fff;
   border: none;
