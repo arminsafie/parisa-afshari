@@ -683,6 +683,9 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .bg__img--login {
+    background: #fff;
+  }
   .sticky-top-custom {
     position: static;
   }
