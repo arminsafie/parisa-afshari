@@ -86,6 +86,10 @@ input[type=range]::-moz-range-track {
   background-color: #f8f9fa;
 }
 
+.text-fb6c78 {
+  color: #fb6c78;
+}
+
 .text-7b15c5 {
   color: #7b15c5;
 }
@@ -165,7 +169,7 @@ input[type=range]::-moz-range-track {
 .btn-pink-border-box {
   cursor: pointer;
   transition: all 0.4s;
-  border: #ec406a 3px solid;
+  border: #ec406a 2px solid;
   background-color: #fff;
   color: #ec406a;
 }
@@ -175,7 +179,7 @@ input[type=range]::-moz-range-track {
 }
 
 .border-535b61 {
-  border: #535b61 3px solid;
+  border: #535b61 2px solid;
 }
 
 .progres-box {
