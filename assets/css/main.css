@@ -276,11 +276,6 @@ body {
   outline: none;
 }
 
-.sticky-top-custom {
-  position: sticky;
-  top: 0;
-}
-
 .bg-img-top-box1 {
   background-image: url("../img/slide-min.png");
   background-size: cover;
@@ -538,6 +533,9 @@ body {
   .phone-show {
     display: block;
   }
+  .sticky-top-custom {
+    position: static;
+  }
   .bg-img-top-box1 {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.749), rgba(255, 255, 255, 0.655)), url("../img/slide-min.png");
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.749), rgba(255, 255, 255, 0.655)), url("../img/slide-min.png");
@@ -678,6 +676,17 @@ body {
 
 .articles__text {
   cursor: pointer;
+}
+
+.sticky-top-custom {
+  position: sticky;
+  top: 6rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .sticky-top-custom {
+    position: static;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
