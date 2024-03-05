@@ -90,6 +90,10 @@ input[type=range]::-moz-range-track {
   color: #7b15c5;
 }
 
+.bg-535b61 {
+  background-color: #535b61;
+}
+
 .pb-small-1 {
   padding-bottom: 11px;
 }
@@ -109,6 +113,10 @@ input[type=range]::-moz-range-track {
   padding: 4px;
   border: 2px solid #ddd;
   border-radius: 50%;
+}
+
+.border-dotted {
+  border: gray dotted 1px;
 }
 
 .w-24-24 {
@@ -152,6 +160,22 @@ input[type=range]::-moz-range-track {
   border-radius: 10px;
   padding: 0.7rem;
   overflow: hidden;
+}
+
+.btn-pink-border-box {
+  cursor: pointer;
+  transition: all 0.4s;
+  border: #ec406a 3px solid;
+  background-color: #fff;
+  color: #ec406a;
+}
+.btn-pink-border-box:hover {
+  background-color: #ec406a;
+  color: white;
+}
+
+.border-535b61 {
+  border: #535b61 3px solid;
 }
 
 .progres-box {
