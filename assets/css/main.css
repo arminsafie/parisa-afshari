@@ -162,6 +162,10 @@ input[type=range]::-moz-range-track {
   height: auto;
 }
 
+.me-custom-big {
+  margin-left: 9rem;
+}
+
 .pink-btn {
   cursor: pointer;
   background-color: #ec406a;
@@ -690,6 +694,9 @@ body {
 @media only screen and (max-width: 600px) {
   .bg__img--login {
     background: #fff;
+  }
+  .me-custom-big {
+    margin-left: 5rem;
   }
   .sticky-top-custom {
     position: static;
