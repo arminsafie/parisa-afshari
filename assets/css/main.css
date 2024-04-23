@@ -534,9 +534,16 @@ body {
   color: #fff !important;
 }
 
+.phone-flex-none {
+  display: flex !important;
+}
+
 @media only screen and (max-width: 1000px) {
   .phone-none {
     display: none;
+  }
+  .phone-flex-none {
+    display: none !important;
   }
   .phone-show {
     display: block;
