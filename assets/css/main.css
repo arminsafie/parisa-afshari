@@ -709,5 +709,22 @@ body {
     position: static;
   }
 }
+.c-p {
+  cursor: pointer;
+}
+
+.user-item {
+  transition: all 0.4s;
+}
+.user-item:hover {
+  background-color: #333;
+}
+.user-item--init {
+  margin-right: 10px;
+}
+
+.bg-graylight {
+  background-color: #333;
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -682,3 +682,19 @@ body {
   }
 }
 
+
+.c-p{
+  cursor: pointer;
+}
+.user-item{
+  transition: all .4s;
+  &:hover{
+    background-color: #333;
+  }
+  &--init{
+    margin-right: 10px;
+  }
+}
+.bg-graylight{
+  background-color: #333;
+}
